@@ -1,0 +1,87 @@
+
+
+.grid-section {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header header1'
+    'dgd dgd dgd sianvar sianvar sianvar dune'
+    'chelsea chelsea chelsea sianvar sianvar sianvar dune'
+    'chelsea chelsea chelsea hall-the-sun favorite-song favorite-song dune';
+     grid-gap: 20px;
+
+}
+
+.header{
+    grid-area: header;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.header1{
+    grid-area: header1;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.dgd{
+    grid-area: dgd;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.dgd-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.sianvar{
+    grid-area: sianvar;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.dune{
+    grid-area: dune;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.chelsea{
+    grid-area: chelsea;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.hall-the-sun{
+    grid-area: hall-the-sun;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.favorite-song{
+    grid-area: favorite-song;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+
+
